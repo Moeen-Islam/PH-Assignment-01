@@ -64,7 +64,7 @@ header nav{
     background: linear-gradient(
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
-    ), url(./assets/hero-bg.png);
+    ), url(assets/hero-bg.png);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
