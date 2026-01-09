@@ -236,3 +236,54 @@ header nav{
 }
 
 /* Notes End */
+/* Solution Start */
+
+.solution{
+    height: 540px;
+    width: 71%;
+    max-width: 1360px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.solution-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.solution-container .solution-image img{
+    height: 400px;
+    width: 400px;
+}
+.solution-item .solution-text{
+    color: #30B868;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.solution-item h2{
+    font-size: 38px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.solution-item p{
+    font-size: 12px;
+    margin-bottom: 16px;
+    color: #627382;
+}
+
+.solution-item ul li{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.solution-item ul li .solu-icon{
+    color: #30B868;
+}
+
+/* Solution End */
+
