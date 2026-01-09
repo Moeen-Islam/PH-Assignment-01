@@ -109,12 +109,12 @@ header nav{
 }
 .banner-text{
     width: 250px;
-    display: flex;
-    align-items: center;
-    background-color: white;
     border-radius: 50px;
     font-size: 16px;
     padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    background-color: white;
     gap: 5px;
 }
 .banner-text .circle{
@@ -124,31 +124,31 @@ header nav{
     background-color: #30B868;
 }
 
-.circle1 {
+.circle-1 {
   width: 16px;
   height: 16px;
-  background: #e6f2ec;
   border-radius: 50%;
+  background: #e6f2ec;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.circle2 {
+.circle-2 {
   width: 12px;
   height: 12px;
-  background: #b9dbc9;
   border-radius: 50%;
+  background: #b9dbc9;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.circle3 {
+.circle-3 {
   width: 8px;
   height: 8px;
-  background: #4f9c73;
   border-radius: 50%;
+  background: #4f9c73;
 }
 
 .banner-container h2{
@@ -286,4 +286,95 @@ header nav{
 }
 
 /* Solution End */
+
+/* Ready Start*/
+
+.ready{
+    height: 500px;
+}
+.ready-container{
+    height: 385px;
+    width: 80%;
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ready-container div{
+    margin-bottom: 16px;
+}
+.ready-container p{
+    font-size: 12px;
+    margin-bottom: 24px;
+    color: #627382;
+}
+.ready-container h2{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+/* Ready End */
+
+/* Footer Start */
+
+footer{
+    height: 350px;
+    background-color: #001931;
+}
+.footer-container{
+    width: 80%;
+    max-width: 1360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    color: white;
+}
+
+.footer-icons img{
+    height: 60px;
+    width: auto;
+}
+.footer-icons p{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.footer-icons .social-link ul{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-icons .social-link ul li{
+    list-style: none;
+    color: #F7F6F2;
+}
+.footer-icons .social-link ul li a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.footer-container hr{
+    height: 1px;
+    background-color: #E5E7EB;
+    margin-bottom: 30px;
+}
+
+.copyright{
+    color: #FAFAFA;
+    font-size: 12px;
+}
+
+/* Footer end */
 
