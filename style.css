@@ -172,3 +172,67 @@ header nav{
 }
 
 /* Banner end */
+
+/* Notes Start */
+.notes{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.notes-container{
+    width: 80%;
+    max-width: 1360px;
+    text-align: center;
+}
+
+.notes-container .note-header h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.notes-container .note-header p{
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+
+.note-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.cards{
+    height: 280px;
+    width: 320px;
+    padding: 42px 16px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.cards img{
+    padding: 10px;
+    margin-bottom: 16px;
+    background-color: #F95555;
+    border-radius: 50%;
+    
+}
+.cards h4{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.cards p{
+    font-size: 12px;
+    margin-bottom: 16px;
+    color: #627382;
+}
+
+/* Notes End */
